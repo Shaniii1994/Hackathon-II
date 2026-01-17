@@ -51,6 +51,8 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",
+        "http://localhost:3001",
+        "https://hackathon-ii-git-main-shanyal-siddiquis-projects.vercel.app/",
         settings.BETTER_AUTH_URL,
     ],
     allow_credentials=True,
